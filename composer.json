@@ -1,0 +1,26 @@
+{
+    "name": "crea-mukai/laravel-list-value",
+    "description": "laravel Array value service",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php":  "^7.1",
+        "laravel/framework": "^5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CreaMukai\\LaravelListValue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CreaMukai\\LaravelListValue\\Providers\\ListValueServiceProvider"
+            ],
+            "aliases": {
+                "ListValueService":"CreaMukai\\LaravelListValue\\Facades\\ListValueFacade"
+            }
+        }
+    }
+
+}
