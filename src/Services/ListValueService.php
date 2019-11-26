@@ -17,7 +17,6 @@ use CreaMukai\LaravelListValue\Services\CoreListValueService;
  */
 class ListValueService extends CoreListValueService
 {
-
     const LIST_VALUES = [
 
         // example
@@ -27,7 +26,6 @@ class ListValueService extends CoreListValueService
             3 => 'Thor',
         ],
     ];
-
 
     // モデル置き場
     // TODO:
