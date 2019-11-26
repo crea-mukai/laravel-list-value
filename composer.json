@@ -3,10 +3,7 @@
     "description": "laravel Array value service",
     "type": "library",
     "license": "MIT",
-    "require": {
-        "php":  "^7.1",
-        "laravel/framework": "^5.5.0"
-    },
+    "require": {},
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
